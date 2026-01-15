@@ -17,7 +17,6 @@ import { ToastProvider } from "./Context/ToastContext.jsx";
 import TasksPage from "./Components/TaskComponents/TasksPage.jsx";
 import { TaskProvider } from "./Context/TaskContext.jsx";
 import { PrimeReactProvider, PrimeReactContext } from "primereact/api";
-import ProtectedRoute from "./Context/ProtectedRoute.jsx";
 
 const router = createBrowserRouter([
    {
