@@ -214,12 +214,8 @@ const Modal = (props) => {
                             onClick={props.handleclose}
                             className='text-4xl hover:bg-black/5 rounded-full cursor-pointer mt-2.5 mr-2.5 col-start-8' />
                     </div>
-                    <button
-                        className='bg-[#0B57D0] mt-4 text-white text-md rounded-3xl px-3 py-2 flex gap-2 items-center'>
-                        <IoPersonAdd className='text-xl' />
-                        Add by Email</button>
                     <p className='text-black/75 mt-2.5 leading-5'>
-                        or share this note link with others you want to work with
+                        Share this note link with others you want to work with
                     </p>
                     <div className='w-full h-10 flex items-center bg-black/5 cursor-text rounded-xl mt-2'>
                         <input type="text" className="outline-0 h-max w-full cursor-text rounded-xl px-4 text-[16px]" disabled value={loading ? "Loading..." : shareUrl} />

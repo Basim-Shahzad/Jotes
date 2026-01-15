@@ -26,7 +26,6 @@ export const AuthProvider = ({ children }) => {
     const [isInitialized, setIsInitialized] = useState(false)
     const [isLoggedin, setIsloggedin] = useState(false)
     const { api } = useApi()
-    // navigation via window since AuthProvider may be mounted outside Router
 
     useEffect(() => {
         fetchCurrentUser();
